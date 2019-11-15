@@ -4,11 +4,11 @@ from gameFunctions import winlose, gameWars, compare
 
 while gameWars.player is False:
 	#set player to True
-	print("************************\n")
+	print("*--*--*--*--*---***---*--*--*--*--*\n")
 	print("Computer Lives:", gameWars.computer_lives, "/", gameWars.total_lives, "\n")
 	print("Player Lives:", gameWars.player_lives, "/", gameWars.total_lives, "\n")
 	print("Choose your weapon!\n")
-	print("************************\n")
+	print("*--*--*--*--*---***---*--*--*--*--*\n")
 
 	### this is where you would call compare
 	gameWars.player = input("choose rock, paper or scissors:")
@@ -50,7 +50,7 @@ while gameWars.player is False:
 		# 	gameWars.computer = choices[radint(0,2)]
 
 	elif gameWars.computer_lives is 0:
-		winlose.winorloose("won")
+		winlose.winorloose("win")
 				# print("gameWars.computer is out of lives! You suck at this game. Would you like to play again?\n")
 		# choice = input ("Y / N")
 		# print(choice)

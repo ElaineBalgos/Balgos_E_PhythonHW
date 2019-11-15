@@ -3,11 +3,12 @@ from gameFunctions import gameWars
 
 # define a python function that takes an argument
 def winorloose(status):
-	# status either won or lost - yo're passing this is as an argument
-	print("called win or lose")
-	print("*******************")
+	# status either won or lost - you're passing this is as an argument
+	print("***********************************")
+	print("*********  R P S G a m e  *********")
+	print("***********************************")
 
-	print("You", status, "! Would like to play again?")
+	print("You", status,"! Would like to play again?")
 	
 	choice = input ("Y / N: ")
 	print(choice)

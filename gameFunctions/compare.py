@@ -32,9 +32,11 @@ def comparechoices(computer, player):
 			else:
 				print("Wohoo!!! You Win!", gameWars.player, "cuts", gameWars.computer, "\n")
 
-	else:
-		print("Ow oh..That's not a valid choice, Try again!")
-
+		elif gameWars.player != gameWars.choices[randint(0,2)]:
+			if gameWars.computer == gameWars.choices[randint(0,2)]:
+				print("Ow oh..That's not a valid choice!!!")
+			else:
+				print("Ow oh..That's not a valid choice!!!")
 
 	gameWars.player = False
 	gameWars.computer = gameWars.choices[randint(0,2)]
