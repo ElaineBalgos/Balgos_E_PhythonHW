@@ -4,7 +4,7 @@ Pick your weapon and play against the computer - you'll only get a virtual strin
 
 Prerequisites: All you need is [Python 3](https://www.python.org/) to play.
 
-Clone the project, navigate to the correct directory, -`cd``directory``name` - and run the `game.py` file in a Python Terminal Window for macOS/Linux
+Clone the project, navigate to the correct directory, -`cd directory name` - and run the `game.py` file in a Python Terminal Window for macOS/Linux
 
 The rules are the same as the classic game:
 1. Papercovers the Rock
@@ -17,5 +17,5 @@ The computer chooses first; just follow the prompts.
 
 Built with Python3
 
-Author
+*Author* 
 _Elaine Balgos_
