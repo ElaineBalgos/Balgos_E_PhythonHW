@@ -17,5 +17,5 @@ The computer chooses first; just follow the prompts.
 
 Built with Python3
 
-*Author* 
+**Submitted By**<br>
 _Elaine Balgos_
